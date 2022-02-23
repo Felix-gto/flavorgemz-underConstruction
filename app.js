@@ -72,9 +72,25 @@ app.post("/", function(req, res) {
 
 });
 
+// Success & Failure pages set up to redirect to Sign Up page when clicking button
+app.post("/success", function(req, res) {
+  res.redirect("/");
+});
+
 app.post("/failure", function(req, res) {
   res.redirect("/");
 });
+
+
+// Success and Failure Pages - To see how they are displayed
+app.get("/success", function(req, res) {
+  res.sendFile(__dirname + "/success.html");
+});
+
+app.get("/failure", function(req, res) {
+  res.sendFile(__dirname + "/failure.html");
+});
+
 
 // listen() method, added the port 3000 and a anonymous callback function that will console log that our Server is running on port 3000
 app.listen(process.env.PORT || 3000, function() {   // App will work both on Heroku as well as our local system (port 3000)
