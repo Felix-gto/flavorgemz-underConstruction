@@ -7,13 +7,23 @@ body {
 }
 
 img {
-  width: 40%;
+  margin: auto;
+  width: 100%;
+}
+
+.col-aligncenter{
+  float: none;
+  margin: 0 auto;
 }
 
 .container {
   margin-left: 10rem;
   margin-top: 3rem;
   margin: auto;
+}
+
+.container-bottom {
+  margin-bottom: 2rem;
 }
 
 .content{
