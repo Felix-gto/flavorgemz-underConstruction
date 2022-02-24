@@ -81,7 +81,6 @@ app.post("/failure", function(req, res) {
   res.redirect("/");
 });
 
-
 // Success and Failure Pages - To see how they are displayed
 app.get("/success", function(req, res) {
   res.sendFile(__dirname + "/success.html");

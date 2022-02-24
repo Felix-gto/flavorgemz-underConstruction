@@ -1,4 +1,65 @@
-html,
+body {
+  background-color: #DDDDDD;
+}
+
+img {
+  width: 50%;
+}
+
+.container {
+  margin-left: 10rem;
+  margin-top: 3rem;
+  margin: auto;
+}
+
+.content{
+  margin: 2rem;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.form {
+  border-radius: 50px;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #A7D7C5;
+}
+
+.input-fields {
+  width: 100%;
+  padding: 5%;
+  margin: 0 auto;
+}
+
+input {
+  margin: 1rem 0;
+}
+
+.btn-primary {
+  background-color: #D8389A !important;
+  width: 90% !important;
+  font-weight: 600 !important;
+  border-radius: 25px !important;
+}
+
+/* Success & Failure pages */
+.jumbotron {
+  margin-top: 5rem;
+}
+
+.btn-warning {
+  background-color: #D8389A !important;
+  color: white !important;
+}
+
+/********** Old CSS from Udemy Course **********/
+/* html,
 body {
   height: 100%;
 }
@@ -11,9 +72,9 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #f5f5f5;
-}
+} */
 
-.form-signin {
+/* .form-signin {
   width: 100%;
   max-width: 330px;
   padding: 15px;
@@ -51,4 +112,4 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-}
+} */
